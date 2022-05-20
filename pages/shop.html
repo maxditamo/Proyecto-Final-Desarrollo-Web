@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#000000"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido al sitio oficial de One Step Argentina. Compra con descuentos de hasta un 40% por tiempo limitado. COMPRAR AHORA.">
+    <meta name="keywords" content="ropa, deportes, juegos, feliz, buscar en google, quiero">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/img/favicon.jpg" />
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="form-validation.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  
+<!--Inicio formulario de compra-->
+<div class="container">
+<main>
+<div class="py-5 text-center">
+  <a href="../pages/productos.html"><img class="d-block mx-auto mb-4" src="../assets/img/one-step-logo.jpg" alt="one-step-logo" width="100" height="auto"></a>
+  <h1>Formulario de compra</h1>
+  <p class="lead">Con este formulario podés realizar todas tus compras de forma segura.<br>Completa los siguientes items y segui disfrutando de tus productos.</p>
+</div>
+
+<div class="row g-5">
+  <div class="col-md-5 col-lg-4 order-md-last">
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+      <span class="text-dark">Tu carrito</span>
+      <span class="badge bg-dark rounded-pill">3</span>
+    </h4>
+    <ul class="list-group mb-3">
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">Conjunto Primegreen Essentials</h6>
+          <small class="text-muted">3 tiras Adidas</small>
+        </div>
+        <span class="text-muted">$13.000</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">Buzo Cropped </h6>
+          <small class="text-muted">Classic Femme Adidas</small>
+        </div>
+        <span class="text-muted">$8.599</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">Conjunto Buzo de Cuello Redondo</h6>
+          <small class="text-muted">Classic kids & future</small>
+        </div>
+        <span class="text-muted">$3.499</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between bg-light">
+        <div class="text-success">
+          <h6 class="my-0">Código promocional</h6>
+          <small>La Nación +</small>
+        </div>
+        <span class="text-success">−$1.099</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between">
+        <span>Total (Pesos)</span>
+        <strong>$23.999</strong>
+      </li>
+    </ul>
+
+    <form class="card p-2">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Código promocional">
+        <button type="submit" class="btn btn-secondary">Aplicar</button>
+      </div>
+    </form>
+  </div>
+  <div class="col-md-7 col-lg-8">
+    <h4 class="mb-3">Dirección de envío y facturación</h4>
+    <form class="needs-validation" novalidate>
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
+          <div class="invalid-feedback">
+            Se requiere validar su nombre.
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label for="lastName" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
+          <div class="invalid-feedback">
+            Se requiere validar su apellido.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="username" class="form-label">Nombre de usuario</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" id="username" placeholder="nombre de usuario ó mail" required>
+          <div class="invalid-feedback">
+            Se requiere validar su nombre de usuario.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="email" class="form-label">Mail <span class="text-muted"></span></label>
+          <input type="email" class="form-control" id="email" placeholder="mail@ejemplo.com">
+          <div class="invalid-feedback">
+            Ingrese una dirección de correo electrónico válida para actualizaciones de envío.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="address" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="address" placeholder="Avenida 1234" required>
+          <div class="invalid-feedback">
+            Por favor ingrese su dirección de envío.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="address2" class="form-label">Dirección 2 <span class="text-muted">(Optional)</span></label>
+          <input type="text" class="form-control" id="address2" placeholder="Avenida 1234">
+        </div>
+
+        <div class="col-md-5">
+          <label for="country" class="form-label">País</label>
+          <select class="form-select" id="country" required>
+            <option value="">Elija...</option>
+            <option>Argentina</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor elija un país válido.
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <label for="state" class="form-label">Provincia</label>
+          <select class="form-select" id="state" required>
+            <option value="">Elija...</option>
+            <option>Buenos Aires</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor elija una provincia válida.
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="zip" class="form-label">Código postal</label>
+          <input type="text" class="form-control" id="zip" placeholder="" required>
+          <div class="invalid-feedback">
+            Se requiere un código postal.
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="same-address">
+        <label class="form-check-label" for="same-address">La dirección de envío es la misma que mi dirección de facturación</label>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="save-info">
+        <label class="form-check-label" for="save-info">Guardar información para próximas compras.</label>
+      </div>
+
+      <hr class="my-4">
+
+      <h4 class="mb-3">Métodos de pago</h4>
+
+      <div class="my-3">
+        <div class="form-check">
+          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+          <label class="form-check-label" for="credit">Tarjeta de crédito</label>
+        </div>
+        <div class="form-check">
+          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+          <label class="form-check-label" for="debit">Tarjeta de débito</label>
+        </div>
+        <div class="form-check">
+          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+          <label class="form-check-label" for="paypal">PayPal</label>
+        </div>
+      </div>
+
+      <div class="row gy-3">
+        <div class="col-md-6">
+          <label for="cc-name" class="form-label">Nombre del titular</label>
+          <input type="text" class="form-control" id="cc-name" placeholder="" required>
+          <small class="text-muted"></small>
+          <div class="invalid-feedback">
+            Se requiere el nombre del titular de la tarjeta.
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="cc-number" class="form-label">Número de la tarjeta de crédito.</label>
+          <input type="text" class="form-control" id="cc-number" placeholder="" required>
+          <div class="invalid-feedback">
+            Credit card number is required
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-expiration" class="form-label">Vencimiento</label>
+          <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+          <div class="invalid-feedback">
+            Se requiere datos de vencimiento de la tarjeta.
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-cvv" class="form-label">CVV</label>
+          <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+          <div class="invalid-feedback">
+            Se requiere código de seguridad.
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+
+      <button class="w-100 btn btn-dark btn-lg" type="submit">Continuar</button>
+    </form>
+  </div>
+</div>
+</main>
+<!--Footer-->
+<footer class="my-5 pt-5 text-muted text-center text-small">
+<p class="mb-1">&copy; 2022 One Step</p>
+<ul class="list-inline">
+  <li class="list-inline-item"><a href="#">Privacidad</a></li>
+  <li class="list-inline-item"><a href="#">Términos y condiciones</a></li>
+  <li class="list-inline-item"><a href="#">Soporte</a></li>
+</ul>
+</footer>
+</div>
+<!--Cierre formulario de compra-->
+<!--Script-->
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="form-validation.js"></script>
+</body>
+</html>
